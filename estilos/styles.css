@@ -69,6 +69,7 @@ div.banner-content h1{
     font-family: var(--fonte2);
     font-size: 30px;
     font-weight: 900;
+    min-width: 330px;
     max-width: 600px;
     width: 90%;
     margin-bottom: 20px;
