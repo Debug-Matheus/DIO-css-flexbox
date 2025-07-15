@@ -221,7 +221,7 @@ section#transform-world{
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     border-bottom: 1px solid #3ba1cd75;
 }
 section#transform-world p{
