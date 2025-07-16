@@ -3,7 +3,7 @@
 Bem vindo(a) ao primeiro desafio da Trilha de CSS da DIO! Nela, você vai construir sua primeira Landing Page com HTML e CSS, colocando em prática os fundamentos do CSS,
 as propriedades básicas da linguagem de estilização, além de trabalhar com as unidades de medidas relativas e absolutas que aprendemos ao longo da trilha.
 
-- Resultado do site feito por mim. [Clique aqui](https://projeto1-css-dio.netlify.app/) para acessar minha página. 
+- RESULTADO DO SITE FEITO POR MIM. [Clique aqui](https://projeto1-css-dio.netlify.app/) para acessar minha página.
 
 [Clique aqui](https://micheleambrosio.github.io/dio-trilha-css-desafio-01/) para acessar o resultado final da Landing Page criada a partir do desafio!
 
