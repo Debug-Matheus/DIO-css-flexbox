@@ -18,7 +18,7 @@ body{
     background-color: #2B2B2B;
     overflow-x: hidden;
 }
-header.banner{
+header#banner{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -44,7 +44,7 @@ header.banner{
 
     
 }
-div.banner-content{
+div#banner-content{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -66,7 +66,7 @@ div.logo{
     padding: 20px;
     margin-bottom: 20px;
 }
-div.banner-content h1{
+div#banner-content h1{
     font-family: var(--fonte2);
     font-size: 25px;
     font-weight: 900;
@@ -83,7 +83,7 @@ div.banner-content h1{
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-div.banner-content p{
+div#banner-content p{
     font-family: var(--fonte2);
     font-size: 15px;
     font-weight: 400;
@@ -96,7 +96,7 @@ div.banner-content p{
     color: #FFFFFF;
 }
 
-div.banner-content button{
+div#banner-content button{
     font-family: var(--fonte2);
     font-size: 15px;
     font-weight: 600;
@@ -122,7 +122,7 @@ div.banner-content button{
 
 }
 
-div.banner-content button:hover{
+div#banner-content button:hover{
     background-image: linear-gradient(to bottom, #3BA1CD, #1572B7);
     -webkit-background-clip: padding-box, border-box;
     background-clip: padding-box, border-box;
@@ -319,6 +319,16 @@ footer p a{
     text-decoration: none;
     color: #3BA1CD;
     font-weight: 700;
+}
+.reveal {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.reveal.show {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 
